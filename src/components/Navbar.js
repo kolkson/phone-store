@@ -24,9 +24,6 @@ export default class Navbar extends Component {
         return (
             <>
                 <nav className="nav">
-                    <Link to="/">
-                        <img src={logo} alt="banner" className="nav__banner" />
-                    </Link>
                     <Link to="/basket">
 
                         <button className="nav__basket">
@@ -48,9 +45,6 @@ export default class Navbar extends Component {
                         </li>
                         <li className="menu__link" onClick={this.handleToggle}>
                             <Link to='/phones'>Telefony</Link>
-                        </li>
-                        <li className="menu__link" onClick={this.handleToggle}>
-                            <Link to="/contact">Kontakt</Link>
                         </li>
                     </ul>
                 </div>
